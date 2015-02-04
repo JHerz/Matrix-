@@ -1,0 +1,205 @@
+*{font-family:sans-serif;}
+
+input{border-radius:4px;}
+
+#cartButton:focus {
+    outline: 0;
+}
+
+#tabs{margin-top: 3px;
+      width:1300px;
+      margin-left: 0px;}
+
+#header{
+    padding-right: 60px;
+    padding-left:60px;
+    background-color:#eeeeee;
+    text-align:center;
+    height: 146px;
+    width: 98%;
+    margin:auto;
+    border-radius: 8px;
+}
+
+#header p{
+    font-size: 27px;
+}
+
+#title{
+    font-size:81px;
+}
+
+.caption{
+    font-size:28px; 
+}
+
+.items, .page2items{
+    display:inline-block;
+    margin-right:100px;
+    margin-bottom: 32px;}
+
+.page2items{
+    width:222px;
+}
+
+.items:hover, .page2items:hover{
+    cursor:pointer;
+}
+
+#content {
+    text-align:center;
+    margin-top:38px;
+    width: 100%;
+    display:inline-block;
+}
+
+.page2img{
+    width:130px;
+    height:130px;
+}
+
+#price{
+    color:maroon;
+}
+
+#sort{
+    margin-bottom:40px;
+}
+
+#selectedText{
+    text-align:left;
+    padding-left: 35px;
+}
+
+#selectedPic {
+    margin-top: 0px;
+}
+
+#selectedPrice{
+    color:maroon;
+    font-size:28px;
+}
+
+#cartButton{
+    width:140px;
+    height:60px;
+    border-radius:20px;
+    margin-top: 2px;
+}
+
+#addToCart{
+    width:270px;
+    height:150px;
+    border-radius:15px;
+    border:1px solid black;  
+    margin-left: 176px;
+}
+
+#returnsText{
+    font-size:19px;
+}
+
+#returnList{
+    text-align:left;
+    margin-left:270px;
+}
+
+#aboutText{
+    text-align:left;
+    font-size:25px;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    margin-top:50px;
+}
+
+#contactText{
+    font-size:21px;
+    text-align:center;
+    margin-top:100px;
+}
+
+#faqsText{
+    font-size:18px;
+    text-align:left;
+    margin-left:250px;
+    margin-top:-30px;
+    width:55%;
+}
+
+#faqsTitle{
+    font-size:50px;
+    text-align:center;
+}
+
+#shipText{
+    font-size:19px;
+}
+
+#writeReview:hover{
+    cursor:pointer;
+    color:orange;
+}
+
+#revBox{
+    margin-top: 6px;
+    margin-bottom: 7px;
+    font-size:16px;
+}
+#revHere{
+    font-size: 19px;
+}
+#stars{
+    font-size:19px;
+    margin-bottom:20px;
+    text-align: left;
+}
+#revName{font-size:19px;
+         text-align: left;margin-bottom: 22px;}
+#review{
+    width: 50%;
+    margin: auto;
+}
+.eachReview{
+    border-bottom:1px solid black;
+    width: 500px;
+    margin-left: 38px;
+    font-size: 17px;
+    text-align: left;
+}
+
+#cartPageName{
+    font-size:32px;
+}
+
+#cartPagePrice{
+    font-size:36px;
+    color:maroon;
+}
+img#theCartPic{
+    height:125px;
+    text-align:right;
+}
+
+#cartPageRow{
+    border-bottom:1px dotted black;
+    margin-bottom: 17px;
+}
+#cartTotal{
+    font-size: 34px;
+    height: 100px;
+}
+#cartTotalPrice{
+    color:orangered;
+}
+#avgStar{
+    font-size:22px;
+}
+
+#emptyCart{
+    font-size:20px;
+}
+
+.bigImage{
+    width:308px;
+}
